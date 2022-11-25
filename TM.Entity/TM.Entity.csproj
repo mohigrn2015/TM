@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CommonResponse.Entity\" />
+    <Compile Remove="CommonResponse.Entity\**" />
+    <EmbeddedResource Remove="CommonResponse.Entity\**" />
+    <None Remove="CommonResponse.Entity\**" />
   </ItemGroup>
 
 </Project>
