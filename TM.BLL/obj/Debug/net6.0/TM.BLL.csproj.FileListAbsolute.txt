@@ -1,0 +1,17 @@
+F:\PersonalETC\TM\TM\TM.BLL\bin\Debug\net6.0\TM.BLL.deps.json
+F:\PersonalETC\TM\TM\TM.BLL\bin\Debug\net6.0\TM.BLL.dll
+F:\PersonalETC\TM\TM\TM.BLL\bin\Debug\net6.0\TM.BLL.pdb
+F:\PersonalETC\TM\TM\TM.BLL\bin\Debug\net6.0\TM.DAL.dll
+F:\PersonalETC\TM\TM\TM.BLL\bin\Debug\net6.0\TM.Entity.dll
+F:\PersonalETC\TM\TM\TM.BLL\bin\Debug\net6.0\TM.DAL.pdb
+F:\PersonalETC\TM\TM\TM.BLL\bin\Debug\net6.0\TM.Entity.pdb
+F:\PersonalETC\TM\TM\TM.BLL\obj\Debug\net6.0\TM.BLL.csproj.AssemblyReference.cache
+F:\PersonalETC\TM\TM\TM.BLL\obj\Debug\net6.0\TM.BLL.GeneratedMSBuildEditorConfig.editorconfig
+F:\PersonalETC\TM\TM\TM.BLL\obj\Debug\net6.0\TM.BLL.AssemblyInfoInputs.cache
+F:\PersonalETC\TM\TM\TM.BLL\obj\Debug\net6.0\TM.BLL.AssemblyInfo.cs
+F:\PersonalETC\TM\TM\TM.BLL\obj\Debug\net6.0\TM.BLL.csproj.CoreCompileInputs.cache
+F:\PersonalETC\TM\TM\TM.BLL\obj\Debug\net6.0\TM.BLL.csproj.CopyComplete
+F:\PersonalETC\TM\TM\TM.BLL\obj\Debug\net6.0\TM.BLL.dll
+F:\PersonalETC\TM\TM\TM.BLL\obj\Debug\net6.0\refint\TM.BLL.dll
+F:\PersonalETC\TM\TM\TM.BLL\obj\Debug\net6.0\TM.BLL.pdb
+F:\PersonalETC\TM\TM\TM.BLL\obj\Debug\net6.0\ref\TM.BLL.dll

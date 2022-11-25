@@ -1,0 +1,15 @@
+F:\PersonalETC\TM\TM\TM.DAL\bin\Debug\net6.0\TM.DAL.deps.json
+F:\PersonalETC\TM\TM\TM.DAL\bin\Debug\net6.0\TM.DAL.dll
+F:\PersonalETC\TM\TM\TM.DAL\bin\Debug\net6.0\TM.DAL.pdb
+F:\PersonalETC\TM\TM\TM.DAL\bin\Debug\net6.0\TM.Entity.dll
+F:\PersonalETC\TM\TM\TM.DAL\bin\Debug\net6.0\TM.Entity.pdb
+F:\PersonalETC\TM\TM\TM.DAL\obj\Debug\net6.0\TM.DAL.csproj.AssemblyReference.cache
+F:\PersonalETC\TM\TM\TM.DAL\obj\Debug\net6.0\TM.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\PersonalETC\TM\TM\TM.DAL\obj\Debug\net6.0\TM.DAL.AssemblyInfoInputs.cache
+F:\PersonalETC\TM\TM\TM.DAL\obj\Debug\net6.0\TM.DAL.AssemblyInfo.cs
+F:\PersonalETC\TM\TM\TM.DAL\obj\Debug\net6.0\TM.DAL.csproj.CoreCompileInputs.cache
+F:\PersonalETC\TM\TM\TM.DAL\obj\Debug\net6.0\TM.DAL.csproj.CopyComplete
+F:\PersonalETC\TM\TM\TM.DAL\obj\Debug\net6.0\TM.DAL.dll
+F:\PersonalETC\TM\TM\TM.DAL\obj\Debug\net6.0\refint\TM.DAL.dll
+F:\PersonalETC\TM\TM\TM.DAL\obj\Debug\net6.0\TM.DAL.pdb
+F:\PersonalETC\TM\TM\TM.DAL\obj\Debug\net6.0\ref\TM.DAL.dll

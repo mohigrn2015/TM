@@ -1,0 +1,12 @@
+F:\PersonalETC\TM\TM\TM.Entity\bin\Debug\net6.0\TM.Entity.deps.json
+F:\PersonalETC\TM\TM\TM.Entity\bin\Debug\net6.0\TM.Entity.dll
+F:\PersonalETC\TM\TM\TM.Entity\bin\Debug\net6.0\TM.Entity.pdb
+F:\PersonalETC\TM\TM\TM.Entity\obj\Debug\net6.0\TM.Entity.csproj.AssemblyReference.cache
+F:\PersonalETC\TM\TM\TM.Entity\obj\Debug\net6.0\TM.Entity.GeneratedMSBuildEditorConfig.editorconfig
+F:\PersonalETC\TM\TM\TM.Entity\obj\Debug\net6.0\TM.Entity.AssemblyInfoInputs.cache
+F:\PersonalETC\TM\TM\TM.Entity\obj\Debug\net6.0\TM.Entity.AssemblyInfo.cs
+F:\PersonalETC\TM\TM\TM.Entity\obj\Debug\net6.0\TM.Entity.csproj.CoreCompileInputs.cache
+F:\PersonalETC\TM\TM\TM.Entity\obj\Debug\net6.0\TM.Entity.dll
+F:\PersonalETC\TM\TM\TM.Entity\obj\Debug\net6.0\refint\TM.Entity.dll
+F:\PersonalETC\TM\TM\TM.Entity\obj\Debug\net6.0\TM.Entity.pdb
+F:\PersonalETC\TM\TM\TM.Entity\obj\Debug\net6.0\ref\TM.Entity.dll
