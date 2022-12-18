@@ -13,8 +13,8 @@ namespace TM.BLL.Implementation
 {
     public class BLLSecurity : IBLLSecurity
     {
-        private ISecurityBase _security;
-        public BLLSecurity(ISecurityBase security)
+        private IDALSecurityBase _security;
+        public BLLSecurity(IDALSecurityBase security)
         {
             _security = security;
         }

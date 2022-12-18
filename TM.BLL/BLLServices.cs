@@ -9,6 +9,9 @@ namespace TM.BLL
         public static IServiceCollection AddBll(this IServiceCollection service)
         {
             service.AddTransient<IBLLSecurity, BLLSecurity>();
+            service.AddTransient<IBllTaskDetails, BLLTasksDetails>();
+            service.AddTransient<ISessionSplit, BLLSessionSplit>();
+            service.AddTransient<IBllTeam, BLLTeam>();
             return service;
         }
     }

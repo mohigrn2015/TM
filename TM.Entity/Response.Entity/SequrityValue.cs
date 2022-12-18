@@ -14,7 +14,8 @@ namespace TM.Entity.Response.Entity
         public string rightName { get; set; } 
         public string userName { get; set; }
         public int roleid { get; set; }
-        public string roleName { get; set; }
+        public string roleName { get; set; } 
         public int isSessionValid { get; set; }
+        public int teamId { get; set; }
     }
 }

@@ -14,8 +14,8 @@ namespace TM.BLL.Implementation
 {
     internal class BLLSessionSplit : ISessionSplit
     {
-        private ISecurityBase _sessionSplit;
-        public BLLSessionSplit(ISecurityBase sessionSplit)
+        private IDALSecurityBase _sessionSplit;
+        public BLLSessionSplit(IDALSecurityBase sessionSplit)
         {
             _sessionSplit = sessionSplit;
         }

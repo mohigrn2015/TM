@@ -8,8 +8,10 @@ namespace TM.DAL
     {
         public static IServiceCollection AddDAL(this IServiceCollection service)
         {
-            service.AddTransient<ITaskDetails, TaskDetailsRepository>();
-            service.AddTransient<ISecurityBase, SecurityBase>();
+            service.AddTransient<IDALTaskDetails, TaskDetailsRepository>();
+            service.AddTransient<IDALSecurityBase, SecurityBase>();
+            service.AddTransient<IDALTeamMange, TeamMangeRepository>();
+            service.AddTransient<IDALRoleManage, RoleMangeRepository>();
             return service;
         } 
     } 

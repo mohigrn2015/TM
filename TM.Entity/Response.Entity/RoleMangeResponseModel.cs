@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace TM.Entity.Response.Entity
 {
-    public class TaskResponse
+    public class RoleMangeResponseModel : CommonResponseModel
     {
-        public int MyProperty { get; set; }
-    }
+        public int feature_id { get; set; }
+        public string feature_name { get; set; }
+    } 
 }

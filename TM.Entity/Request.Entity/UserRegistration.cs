@@ -45,8 +45,11 @@ namespace TM.Entity.Request.Entity
         [Required(ErrorMessage = "Password is required")]
         public string password { get; set; }
         public string blood_group { get; set; }
+        [Required(ErrorMessage = "designation is required")]
         public int designation_id { get; set; }
         public string designation_name { get; set; }
+        [Required(ErrorMessage = "team is required")]
+        public int team_id { get; set; }
 
     }
 }

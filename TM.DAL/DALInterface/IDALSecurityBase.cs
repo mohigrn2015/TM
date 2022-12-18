@@ -8,7 +8,7 @@ using TM.Entity.Response.Entity;
 
 namespace TM.DAL.DALInterface
 {
-    public interface ISecurityBase
+    public interface IDALSecurityBase
     {
         ValidateUser ValidateUser(string user_name, string encPassword);
         long SaveLoginInfo(UserLoginAttempts attempts);

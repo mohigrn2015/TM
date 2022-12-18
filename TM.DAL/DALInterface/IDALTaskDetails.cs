@@ -8,8 +8,11 @@ using TM.Entity.Response.Entity;
 
 namespace TM.DAL.DALInterface
 {
-    internal interface ITaskDetails
+    public interface IDALTaskDetails
     {
-        List<TaskResponse> GetTaskList(CommonRequestModel model);
-    }
+        List<TasksResponses> GetTaskList(CommonRequestModel model);
+        long AddTask(TaskManageReq model); 
+        long UpdateInitialTask(int taskId);
+
+    } 
 }

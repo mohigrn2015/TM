@@ -16,7 +16,7 @@ using TM.Entity.Response.Entity;
 
 namespace TM.DAL.Repository
 {
-    public class SecurityBase : ISecurityBase
+    public class SecurityBase : IDALSecurityBase
     {
         LogsHandler _logsHandler = new LogsHandler();
         DynamicParams _dynamic = new DynamicParams();
