@@ -14,6 +14,7 @@ namespace TM.BLL.BLLInterface
         long RoleManage(RoleManageRequest model);
         List<RoleMangeResponseModel> GetFeatureList(RoleManageRequest model);
         List<AssignedRoleResponseModel> GetActiveFeatures(RoleManageRequest model);
+        List<UserResponseModel> GetAllUsers(CommonRequestModel model); 
 
     }
 } 

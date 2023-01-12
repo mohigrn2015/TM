@@ -67,6 +67,7 @@ namespace TM.Controllers
             }
             return Ok(roleFeatureResponse);
         }
+
         [HttpPost] 
         [Route("manage-role")]
         public async Task<IActionResult> ManageUserRole([FromBody] RoleManageRequest model)
@@ -98,6 +99,7 @@ namespace TM.Controllers
             }
             return Ok(responseModel);
         }
+
         [HttpPost]
         [Route("assign-role")] 
         public async Task<IActionResult> AssignRoleToUser([FromBody] RoleManageRequest model)
@@ -128,6 +130,30 @@ namespace TM.Controllers
                 throw;
             }
             return Ok(responseModel);
+        } 
+
+        [HttpPost]
+        [Route("get-users")]
+        public async Task<IActionResult> GetAllUser([FromBody] CommonRequestModel model)
+        {
+            SequrityValue sequrityValue = new SequrityValue();
+            List<UserResponseModel> allUsers = new List<UserResponseModel>();
+            try
+            {
+                sequrityValue = _session.ValidateSessionToken(model.Session_Token);
+
+                if (sequrityValue.isSessionValid != 1)
+                {
+                    throw new Exception("Invalid session token!");
+                }
+
+                allUsers = _bLLRoleManage.GetAllUsers(model);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return Ok(allUsers);
         }
     }
 }

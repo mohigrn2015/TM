@@ -12,6 +12,7 @@ namespace TM.BLL
             service.AddTransient<IBllTaskDetails, BLLTasksDetails>();
             service.AddTransient<ISessionSplit, BLLSessionSplit>();
             service.AddTransient<IBllTeam, BLLTeam>();
+            service.AddTransient<IBLLRoleManage, BLLRoleManage>();
             return service;
         }
     }

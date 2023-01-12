@@ -16,7 +16,8 @@ namespace TM.Entity.Response.Entity
         public int is_active { get; set; }
         public string created_date { get; set; }
         public string created_by { get; set; }
-        public int userId { get; set; }
+        public string updated_date { get; set; }
+        public string updated_by { get; set; }  
     }
 }
  

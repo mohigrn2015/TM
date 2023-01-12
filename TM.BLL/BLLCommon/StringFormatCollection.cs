@@ -12,7 +12,7 @@ namespace TM.BLL.BLLCommon
         {
             get
             {
-                return "{0},uid:{1},uname:{2},rightId:{3},rightname:{4},roleid:{5},rolename:{6}";
+                return "{0},uid:{1},uname:{2},rightId:{3},rightname:{4},roleid:{5},rolename:{6},teamid:{7}";
             }
         }
 
@@ -20,7 +20,7 @@ namespace TM.BLL.BLLCommon
         {
             get
             {
-                return new string[] { ",uid:", ",uname:", ",rightId:", ",rightname:", ",roleid:", ",rolename:" };
+                return new string[] { ",uid:", ",uname:", ",rightId:", ",rightname:", ",roleid:", ",rolename:", ",teamid:" };
             }
         }
     }

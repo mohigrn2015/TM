@@ -207,7 +207,22 @@ namespace TM.DAL.Parameters
                 _logsHandler.Log("[Exception] " + ex.Message + " Stace Trace: " + ex.StackTrace.ToString());
             }
             return parameters;
-        } 
+        }
+         
+        public DynamicParameters SetParametersGetUsers(CommonRequestModel model)
+        {
+            DynamicParameters parameters = new DynamicParameters();
+            try
+            {
+                parameters.Add("@P_USER_ID", model.userId);
+            }
+            catch (Exception ex)
+            {
+                _logsHandler.Log("[Exception] " + ex.Message + " Stace Trace: " + ex.StackTrace.ToString());
+            }
+            return parameters;
+        }
+
         public DynamicParameters SetParametersRoleMangae(RoleManageRequest model)
         {
             DynamicParameters parameters = new DynamicParameters();

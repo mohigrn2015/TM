@@ -14,6 +14,7 @@ namespace TM.Entity.Response.Entity
         public string session_token { get; set; }
         public int right_id { get; set; }
         public string accessed_role { get; set; }
-        public int userId { get; set; }
+        public int userId { get; set; } 
+        public int teamId { get; set; }
     }
 }

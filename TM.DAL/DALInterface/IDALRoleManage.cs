@@ -14,6 +14,7 @@ namespace TM.DAL.DALInterface
         long RoleManage(RoleManageRequest model); 
         List<RoleMangeResponseModel> GetFeturesList(RoleManageRequest model);
         List<AssignedRoleResponseModel> GetActiveFeatures(RoleManageRequest model);
+        List<UserResponseModel> GetAllUsers(CommonRequestModel model);
 
     }
 }

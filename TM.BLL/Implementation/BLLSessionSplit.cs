@@ -45,6 +45,8 @@ namespace TM.BLL.Implementation
                             data.roleid = Convert.ToInt32(splitedDataList[i]);
                         if (i == 6)
                             data.roleName = splitedDataList[i].ToString();
+                        if (i == 7)
+                            data.teamId = Convert.ToInt32(splitedDataList[i]);
                     }
                 }
             }

@@ -32,6 +32,20 @@ namespace TM.BLL.Implementation
             return actFeatures;
         }
 
+        public List<UserResponseModel> GetAllUsers(CommonRequestModel model)
+        {
+            List<UserResponseModel> users = new List<UserResponseModel>();
+            try
+            {
+                users = _dALRoleManage.GetAllUsers(model);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return users;
+        }
+
         public List<RoleMangeResponseModel> GetFeatureList(RoleManageRequest model)
         {
             List<RoleMangeResponseModel> roleMangeResponse = new List<RoleMangeResponseModel>();   

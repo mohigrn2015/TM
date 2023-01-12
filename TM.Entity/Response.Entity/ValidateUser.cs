@@ -17,6 +17,7 @@ namespace TM.Entity.Response.Entity
         public string user_name { get; set; }
         public string device_Id { get; set; } 
         public int is_success { get; set; }
-        public string serverName { get; set; }
+        public string serverName { get; set; } 
+        public string teamId { get; set; }
     }
 }

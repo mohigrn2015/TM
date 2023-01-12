@@ -46,6 +46,32 @@ namespace TM.DAL.Repository
             return features;
         }
 
+        public List<UserResponseModel> GetAllUsers(CommonRequestModel model)
+        {
+            List<UserResponseModel> users = new List<UserResponseModel>();
+            _dynamic = new DynamicParams();
+            try
+            {
+                using (IDbConnection constr = new SqlConnection(DataContext.ConnectionStrings))
+                {
+                    if (constr.State == ConnectionState.Closed)
+                        try { constr.Open(); } catch (Exception ex) { throw new Exception(ex.Message.ToString()); }
+
+                    var attemp = constr.Query<UserResponseModel>("UG_GET_USER_LIST", _dynamic.SetParametersGetUsers(model), commandType: CommandType.StoredProcedure);
+
+                    if (attemp != null && attemp.Count() > 0)
+                    {
+                        users = attemp.ToList();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                _logsHandler.Log("[Exception] " + ex.Message + " Stace Trace: " + ex.StackTrace.ToString());
+            }
+            return users;
+        }
+
         public List<RoleMangeResponseModel> GetFeturesList(RoleManageRequest model)
         {
             List<RoleMangeResponseModel> roles = new List<RoleMangeResponseModel>();

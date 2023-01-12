@@ -18,7 +18,7 @@ namespace TM.Controllers
             _security = bLLSecurity;
         }
         [HttpPost]
-        [Route("LoginV1")]
+        [Route("loginV1")]
         public async Task<IActionResult> Login(LoginModel login)
         {
             try
@@ -54,7 +54,7 @@ namespace TM.Controllers
 
                 Thread saveThread = new Thread(() => _security.SaveLoginAttempts(attempts));
                 saveThread.Start();
-                string accessToken = AESCriptography.Encrypt(String.Format(StringFormatCollection.AccessTokenFormat, loginProvider, userModel.userId, userModel.user_name, userModel.rightid, userModel.right_name, userModel.roleid, userModel.role_name, Guid.NewGuid()));
+                string accessToken = AESCriptography.Encrypt(String.Format(StringFormatCollection.AccessTokenFormat, loginProvider, userModel.userId, userModel.user_name, userModel.rightid, userModel.right_name, userModel.roleid, userModel.role_name,userModel.teamId, Guid.NewGuid()));
                 //HttpContext.Session.SetString("sessionToken", accessToken);
                 //HttpContext.Session.SetString("right", userModel.right_id.ToString());
                 return Ok(new LoginResponseModel()
@@ -65,7 +65,9 @@ namespace TM.Controllers
                     session_token = accessToken,
                     right_id = userModel.rightid,
                     accessed_role = userModel.role_name,
-                    userId = userModel.userId
+                    userId = userModel.userId,
+                    teamId = Convert.ToInt32(userModel.teamId)
+                    
                 });
             }
             catch (Exception)
@@ -75,7 +77,7 @@ namespace TM.Controllers
         }
 
         [HttpPost]
-        [Route("Register")]
+        [Route("register")]
         public async Task<IActionResult> Register(UserRegistration registration)
         {
             CommonResponseModel commonResponseModel = new CommonResponseModel();
